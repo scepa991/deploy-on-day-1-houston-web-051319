@@ -34,19 +34,8 @@ Please collect the following content from your assigned student for their profil
 
 * Name
 * Github Username
-* Blog Url (if they don't already have a blog it will be their-github-username.github.io)
-* Tagline
-* Profile Picture (something normal, a headshot, of a good reusable size that can be easily cropped)
-* Background Picture
-* Treehouse Account
-* CoderWall Account
-* CodeSchool Account
-* Favorite Websites
-* Previous Work Experience
 * Short Bio
-* Twitter URL
-* LinkedIn URL
-* Education
+* Favorite Food
 
 ## Structure
 
@@ -60,26 +49,13 @@ The structure of this project looks something like this:
 │       └── font files
 ├── img
 │   ├── lots of images here
-│   └── students
-│       ├── student_name_background.jpg
-│       ├── student_name_index.jpg
-│       └── student_name_profile.jpg
 ├── index.html
 ├── js
-│   └── javascipt files
-└── students
-    └── student_name.html
+    └── javascipt files
 ```
 
 ### Files you will need to alter:
 * The only file you'll alter is `index.html`.
-
-### Files you will need to add:
-* Add three pictures to the `img/students` folder (they can be jpg or png files):
-  * A background picture
-  * A picture for the index page
-  * A picture for the profile page
-* Add one HTML file to the `students/` folder. Use the `student_name.html` for reference. In fact, feel free to copy as much of the HTML from `student_name.html` into the new file you've created (just don't rename / override that file, as that will cause you some git headaches).
 
 ## Getting Started
 
@@ -90,8 +66,8 @@ The structure of this project looks something like this:
 * Have one person at your table [fork](https://help.github.com/articles/fork-a-repo) this repo.
 * Git clone the forked repo to that person's machine. Ensure that your index.html file has the same amount of ```<li></li>``` elements (surrounded by the 'begin student' and 'end student' comments) as you have persons on your team. We have provided four by default, but you should either remove these or copy/paste to reflect the correct amount of people on your team. Assign individuals to specific ```<li></li>``` elements (order matters!).
 * Once the count is accurate, the person who forked the repo must git [add](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Staging-Modified-Files), [commit](http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository#Committing-Your-Changes), and [push](http://git-scm.com/book/en/Git-Basics-Working-with-Remotes#Pushing-to-Your-Remotes) to your remote master.
-* Next, the person who forked the repo must add all team members as collaborators. Learn more about that [here](https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
-* Following, this person should then send the link to their fork to everyone sitting at their table.
+
+* Next, this person should then send the link to their fork to everyone sitting at their table.
 
 * ![clone](http://ironboard-curriculum-content.s3.amazonaws.com/web-development/deploy-on-day-1/clone.png)
 * Everyone at the table should then [clone](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository) this forked repo.
@@ -118,14 +94,7 @@ Take a look at `index.html` and `students/student_name.html` in the browser. You
 
 #### Add Profile
 
-* In this new branch, make a new HTML file in the `students/` folder. The file name should be the name of the student you're creating the profile for. Use the file `student_name.html` to see an example of what a profile's HTML could look like.
-  * For instance, we would create a file `zoe_perez.html` in the main `students` folder.
-
-* Still in this branch you created, add the three photos detailed above to the `img/students` folder. The student you're writing the profile for may have to email you their desired pictures or send you links to them, etc.
-  * For instance, we would add the pictures titled `zoe_perez_background.jpg`, `zoe_perez_index.jpg`, and `zoe_perez_profile.jpg` to the `students` folder that is inside the `img` folder.
-  * File endings are case senstive. When adding an \<image\> tag, make sure that the image source is identical to the name of the image file.
-
-* Once you've completed the profile, open up `index.html`. Use the assigned ```<li></li>``` element as a template and fill it out for your fellow classmate.
+* Open up `index.html`. Use the assigned ```<li></li>``` element as a template and fill it out for your fellow classmate.
 
 #### Stage and Commit Changes
 
@@ -185,18 +154,6 @@ other content here
 Just decide which one you want to keep or if you want to keep both. Then delete the parts you don't want and delete the `<<<<HEAD`, `======`, and `>>>>>` parts.  In the process of trying to merge two files, you may notice that chunks of html end up in the wrong place on the page, and there is a chance you may need to move things around to be in the proper order again.  If you'd like a visual reference of what your index page looks like, you can also run `open index.html` from your command line, in order to view the current state of your page in the browser.  
 
 Remember, if you have multiple files with merge conflicts, you'll have to repeat this process with each file. Once you're done selecting which code to retain, `git add` and `git commit` these changes. Now when you type `git status`, your terminal should not display "You have unmerged paths."
-
-## Final Steps
-
-Once every profile is on a single branch that is hosted remotely, it's time to deploy your table's profile page!  This will look like the sample link at the top of this lesson, but with the cards/profiles for your group only.
-
- - In your browser, navigate to the main github repo for your table.  
- - At the top of the page, click on the `Settings` tab (the one with the gear symbol)
- - Once on the Settings page, scroll down to the `GitHub Pages` section
- - Under "Source," choose "master branch" and click "Save."
- - Navigate to ` http://username.github.io/repository_name`, and have a look at your page!
-
- When you have fixed any errors and are ready to share, post your link in Slack so the rest of the class can read who you are!
 
 
 Congratulations, you've completed your first assignment!
