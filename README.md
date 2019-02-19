@@ -25,7 +25,7 @@ Your assignment is to create a student profile for someone sitting at your table
 
 Now if you're anything like me, you might be freaking out and wondering, "Am I making a webapp?!?!" Not today — we'll just working with HTML and file structures. You don't need to know Rails, JavaScript, or even Ruby for this project. And your classmates and instructors are here to help!
 
-You'll have about three hours to complete the first section of this lab. Use that time to get to know your table, get familiar with git workflows, and re-familiarizing yourself with HTML. If you feel stuck, ask any instructor for help. **Keep in mind everyone in your table will be pushing to the same repository.**  Think about using a workflow with your teammates that will minimize conflicts.
+You'll have about an hour and a half to complete this lab. Use that time to get to know your table, get familiar with git workflows, and re-familiarizing yourself with HTML. If you feel stuck, ask any instructor for help. **Keep in mind everyone in your table will be pushing to the same repository.**  Think about using a workflow with your teammates that will minimize conflicts.
 
 ## Requirements
 
