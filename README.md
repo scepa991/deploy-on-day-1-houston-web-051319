@@ -21,9 +21,7 @@ Welcome to Flatiron! Every semester, we create student index pages to help in th
 
 ## Assignment
 
-Your assignment is to create a student profile for someone sitting at your table. By the end of this project, every student should have a profile for themselves that was created by someone else and every student should have created a profile for someone else. If you're sitting at a table of four, it might be easiest to pair up. If you're sitting at a table of three, it might be easiest to create the profile of the student clockwise to you. If you're sitting at a...well you get the picture.
-
-Now if you're anything like me, you might be freaking out and wondering, "Am I making a webapp?!?!" Not today — we'll just working with HTML and file structures. You don't need to know Rails, JavaScript, or even Ruby for this project. And your classmates and instructors are here to help!
+Your assignment is to create a student profile for someone sitting at your table. By the end of this project, every student should have a profile for themselves that was created by someone else and every student should have created a profile for someone else. It might be easiest to create the profile of the student clockwise to you. 
 
 You'll have about an hour and a half to complete this lab. Use that time to get to know your table, get familiar with git workflows, and re-familiarizing yourself with HTML. If you feel stuck, ask any instructor for help. **Keep in mind everyone in your table will be pushing to the same repository.**  Think about using a workflow with your teammates that will minimize conflicts.
 
@@ -73,9 +71,9 @@ The structure of this project looks something like this:
 
 ### Individual Instructions
 
-Now that you have the repo, you'll want to get into it. Remember [cd](http://linux.about.com/od/commands/a/Example-Uses-Of-The-Command-Cd.htm)? When you type `pwd` into your terminal and the last part of the text that gets returned is `deploy-on-day-1...` you're in the right place. **NOTE In all the hypothetical examples, we're writing a profile for Zoe Perez.**
+Now that you have the repo, you'll want to get into it. Remember [cd](http://linux.about.com/od/commands/a/Example-Uses-Of-The-Command-Cd.htm)? **NOTE In all the hypothetical examples, we're writing a profile for Zoe Perez.**
 
-Take a look at `index.html` and `students/student_name.html` in the browser. You can do this many ways but one is by opening finder and right clicking on index.html. Then click on "Open with" then the name of your favorite browser.
+Take a look at `index.html` in the browser. You can do this many ways but one is by opening finder and right clicking on index.html. Then click on "Open with" then the name of your favorite browser.
 
 #### Make a New Branch
 
@@ -84,7 +82,7 @@ Take a look at `index.html` and `students/student_name.html` in the browser. You
   * Note: The `master` branch of a project is NEVER a place to do any work. `master` is considered the build and you never break the build. So make sure you are not working or committing to the `master` branch.
 
 * If you haven't already, switch to the branch you created. To make sure you're where you need to be, type `git branch` in your terminal. It should return the name of your assigned student emphazised with an asterisk and master.
-  * For instance, typing `pwd` in the terminal would return:
+  * For instance, typing `git branch -v` in the terminal would return:
 
 ```text
   master
