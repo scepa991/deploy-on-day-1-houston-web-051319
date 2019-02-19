@@ -12,7 +12,6 @@
 |[File Structure](#structure)       |
 |[Getting Started](#getting-started)|
 |[Next Steps](#next-steps)          |
-|[Final Steps](#final-steps)        |
 |[Resources](#resources)            |
 |[Issues](#issues)                  |
 
